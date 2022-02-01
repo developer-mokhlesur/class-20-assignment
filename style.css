@@ -38,4 +38,39 @@ a{
 .right{
     float: right;
 } */
-/*** Nessesary CSS End Here** */
+/*** Nessesary CSS End Here ***/
+/*** Header CSS Start From Here ***/
+nav img{
+    width: 50px;
+}
+.header-bg{
+    background: #e3f2fd !important;
+}
+/*** Header CSS End Here ***/
+/*** Header-2 CSS Start From Here */
+.bed-bg{
+    background: #e9ecef !important;
+}
+.header-2 img{
+    width: 20px;
+}
+/*** Header-2 CSS End Here */
+/* Slider CSS Start From Here */
+.carousel-item img{
+    height: 450px ;
+}
+.carousel-item{
+    position: relative;
+    
+}
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(0,0,0,0.4);
+    
+}
+/* Slider CSS End Here */
