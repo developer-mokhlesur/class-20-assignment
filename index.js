@@ -7,3 +7,5 @@ window.onload = (event) => {
 $(function(){
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+  

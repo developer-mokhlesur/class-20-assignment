@@ -45,6 +45,11 @@ nav img{
 }
 .header-bg{
     background: #e3f2fd !important;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 /*** Header CSS End Here ***/
 /*** Header-2 CSS Start From Here */
