@@ -4,3 +4,6 @@ window.onload = (event) => {
     let bsAlert = new bootstrap.Toast(myAlert);
     bsAlert.show();
 }
+$(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
